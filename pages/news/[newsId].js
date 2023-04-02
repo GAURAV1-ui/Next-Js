@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-function News (){
+function DetailsPage () {
 
     const router = useRouter();
 
@@ -9,4 +9,4 @@ function News (){
     return <h1>The News pages</h1>
 }
 
-export default News;
+export default DetailsPage;
